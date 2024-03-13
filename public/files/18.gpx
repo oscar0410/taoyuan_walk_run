@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.2.2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ogr="http://osgeo.org/gdal"
+    xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+    <metadata>
+        <bounds minlat="24.812605699999999" minlon="121.087803300000004" maxlat="25.063425100000000" maxlon="121.366514199999997"/>
+    </metadata>
+    <trk>
+        <name>#18.富岡運動公園</name>
+        <extensions>
+        </extensions>
+        <trkseg>
+            <trkpt lat="24.9364798" lon="121.0891444">
+            </trkpt>
+            <trkpt lat="24.9363679" lon="121.0882432">
+            </trkpt>
+            <trkpt lat="24.9365528" lon="121.0882217">
+            </trkpt>
+            <trkpt lat="24.9366355" lon="121.0881949">
+            </trkpt>
+            <trkpt lat="24.9367084" lon="121.088152">
+            </trkpt>
+            <trkpt lat="24.9368544" lon="121.0880179">
+            </trkpt>
+            <trkpt lat="24.9370343" lon="121.0878033">
+            </trkpt>
+            <trkpt lat="24.9380218" lon="121.0888815">
+            </trkpt>
+            <trkpt lat="24.9368592" lon="121.0900939">
+            </trkpt>
+            <trkpt lat="24.9367863" lon="121.0900402">
+            </trkpt>
+            <trkpt lat="24.9367133" lon="121.0899651">
+            </trkpt>
+            <trkpt lat="24.9366209" lon="121.0898203">
+            </trkpt>
+            <trkpt lat="24.9365722" lon="121.0896701">
+            </trkpt>
+            <trkpt lat="24.9365333" lon="121.0894555">
+            </trkpt>
+            <trkpt lat="24.9364895" lon="121.0892034">
+            </trkpt>
+        </trkseg>
+    </trk>
+</gpx>

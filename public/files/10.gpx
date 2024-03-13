@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.2.2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ogr="http://osgeo.org/gdal"
+    xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+    <metadata>
+        <bounds minlat="24.812605699999999" minlon="121.087803300000004" maxlat="25.063425100000000" maxlon="121.366514199999997"/>
+    </metadata>
+    <trk>
+        <name>#10.石門大圳過嶺支渠休憩步道</name>
+        <extensions>
+        </extensions>
+        <trkseg>
+            <trkpt lat="24.9535065" lon="121.1873446">
+            </trkpt>
+            <trkpt lat="24.9526796" lon="121.1873553">
+            </trkpt>
+            <trkpt lat="24.9521155" lon="121.1873661">
+            </trkpt>
+            <trkpt lat="24.9515805" lon="121.1873661">
+            </trkpt>
+            <trkpt lat="24.9507147" lon="121.1873983">
+            </trkpt>
+            <trkpt lat="24.9504326" lon="121.1874626">
+            </trkpt>
+            <trkpt lat="24.9501602" lon="121.1875163">
+            </trkpt>
+            <trkpt lat="24.9497517" lon="121.187527">
+            </trkpt>
+            <trkpt lat="24.9490513" lon="121.187527">
+            </trkpt>
+            <trkpt lat="24.94874" lon="121.1876879">
+            </trkpt>
+            <trkpt lat="24.9482633" lon="121.1879991">
+            </trkpt>
+            <trkpt lat="24.9480785" lon="121.1880742">
+            </trkpt>
+            <trkpt lat="24.9478451" lon="121.1880313">
+            </trkpt>
+            <trkpt lat="24.9476602" lon="121.1879776">
+            </trkpt>
+            <trkpt lat="24.9472225" lon="121.1878381">
+            </trkpt>
+            <trkpt lat="24.9471641" lon="121.1879454">
+            </trkpt>
+            <trkpt lat="24.9471933" lon="121.1880527">
+            </trkpt>
+            <trkpt lat="24.9477089" lon="121.1881815">
+            </trkpt>
+            <trkpt lat="24.9480591" lon="121.188278">
+            </trkpt>
+            <trkpt lat="24.9482147" lon="121.1882566">
+            </trkpt>
+            <trkpt lat="24.9484093" lon="121.18816">
+            </trkpt>
+            <trkpt lat="24.9486233" lon="121.1879776">
+            </trkpt>
+            <trkpt lat="24.9489929" lon="121.1877416">
+            </trkpt>
+            <trkpt lat="24.9491583" lon="121.1876772">
+            </trkpt>
+            <trkpt lat="24.9493723" lon="121.1876879">
+            </trkpt>
+            <trkpt lat="24.9501213" lon="121.1876879">
+            </trkpt>
+            <trkpt lat="24.9502964" lon="121.1876665">
+            </trkpt>
+            <trkpt lat="24.950491" lon="121.1876236">
+            </trkpt>
+            <trkpt lat="24.9507633" lon="121.1875485">
+            </trkpt>
+            <trkpt lat="24.9511135" lon="121.1875485">
+            </trkpt>
+            <trkpt lat="24.9519501" lon="121.1875377">
+            </trkpt>
+            <trkpt lat="24.9526991" lon="121.187527">
+            </trkpt>
+            <trkpt lat="24.9532827" lon="121.1875163">
+            </trkpt>
+            <trkpt lat="24.953487" lon="121.1875055">
+            </trkpt>
+        </trkseg>
+    </trk>
+</gpx>

@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.2.2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ogr="http://osgeo.org/gdal"
+    xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+    <metadata>
+        <bounds minlat="24.812605699999999" minlon="121.087803300000004" maxlat="25.063425100000000" maxlon="121.366514199999997"/>
+    </metadata>
+    <trk>
+        <name>#5.三民運動公園</name>
+        <extensions>
+        </extensions>
+        <trkseg>
+            <trkpt lat="25.0016988" lon="121.3192256">
+            </trkpt>
+            <trkpt lat="25.0013025" lon="121.3201912">
+            </trkpt>
+            <trkpt lat="25.0012612" lon="121.3202824">
+            </trkpt>
+            <trkpt lat="25.0011202" lon="121.3204567">
+            </trkpt>
+            <trkpt lat="25.0007775" lon="121.3208805">
+            </trkpt>
+            <trkpt lat="25.0006146" lon="121.3209663">
+            </trkpt>
+            <trkpt lat="25.0004639" lon="121.3210066">
+            </trkpt>
+            <trkpt lat="25.0002937" lon="121.321028">
+            </trkpt>
+            <trkpt lat="25.0002402" lon="121.3210066">
+            </trkpt>
+            <trkpt lat="25.000194" lon="121.3209234">
+            </trkpt>
+            <trkpt lat="25.0001479" lon="121.3207115">
+            </trkpt>
+            <trkpt lat="25.0001333" lon="121.3205881">
+            </trkpt>
+            <trkpt lat="25.0001527" lon="121.3204084">
+            </trkpt>
+            <trkpt lat="25.0001819" lon="121.3202877">
+            </trkpt>
+            <trkpt lat="25.0002305" lon="121.3201563">
+            </trkpt>
+            <trkpt lat="25.0002718" lon="121.3201">
+            </trkpt>
+            <trkpt lat="25.0005903" lon="121.3197942">
+            </trkpt>
+            <trkpt lat="25.0006875" lon="121.3196842">
+            </trkpt>
+            <trkpt lat="25.0007848" lon="121.3195555">
+            </trkpt>
+            <trkpt lat="25.0009233" lon="121.3193275">
+            </trkpt>
+            <trkpt lat="25.0010497" lon="121.3190915">
+            </trkpt>
+            <trkpt lat="25.0011178" lon="121.3189493">
+            </trkpt>
+            <trkpt lat="25.0011761" lon="121.3187696">
+            </trkpt>
+            <trkpt lat="25.0012272" lon="121.3185872">
+            </trkpt>
+            <trkpt lat="25.0013074" lon="121.3182117">
+            </trkpt>
+            <trkpt lat="25.0013609" lon="121.3180427">
+            </trkpt>
+            <trkpt lat="25.0014168" lon="121.3179864">
+            </trkpt>
+            <trkpt lat="25.0014727" lon="121.3179757">
+            </trkpt>
+            <trkpt lat="25.0015408" lon="121.3179917">
+            </trkpt>
+            <trkpt lat="25.0016185" lon="121.3180508">
+            </trkpt>
+            <trkpt lat="25.0017134" lon="121.3181876">
+            </trkpt>
+            <trkpt lat="25.001779" lon="121.3183431">
+            </trkpt>
+            <trkpt lat="25.0018106" lon="121.3184397">
+            </trkpt>
+            <trkpt lat="25.0018227" lon="121.3185926">
+            </trkpt>
+            <trkpt lat="25.0018252" lon="121.3186623">
+            </trkpt>
+            <trkpt lat="25.0018082" lon="121.318775">
+            </trkpt>
+            <trkpt lat="25.0017887" lon="121.3188796">
+            </trkpt>
+            <trkpt lat="25.0017061" lon="121.3191934">
+            </trkpt>
+        </trkseg>
+    </trk>
+</gpx>

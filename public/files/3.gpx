@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.2.2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ogr="http://osgeo.org/gdal"
+    xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+    <metadata>
+        <bounds minlat="24.812605699999999" minlon="121.087803300000004" maxlat="25.063425100000000" maxlon="121.366514199999997"/>
+    </metadata>
+    <trk>
+        <name>#3.桃園市立田徑場</name>
+        <extensions>
+        </extensions>
+        <trkseg>
+            <trkpt lat="24.9936943" lon="121.324375">
+            </trkpt>
+            <trkpt lat="24.9934415" lon="121.3244581">
+            </trkpt>
+            <trkpt lat="24.9933443" lon="121.3244635">
+            </trkpt>
+            <trkpt lat="24.9931522" lon="121.3244716">
+            </trkpt>
+            <trkpt lat="24.9929942" lon="121.3244635">
+            </trkpt>
+            <trkpt lat="24.9929116" lon="121.3243991">
+            </trkpt>
+            <trkpt lat="24.9927924" lon="121.324265">
+            </trkpt>
+            <trkpt lat="24.9927268" lon="121.324088">
+            </trkpt>
+            <trkpt lat="24.9926928" lon="121.3239458">
+            </trkpt>
+            <trkpt lat="24.9927171" lon="121.3236964">
+            </trkpt>
+            <trkpt lat="24.9927511" lon="121.3235998">
+            </trkpt>
+            <trkpt lat="24.992807" lon="121.3235033">
+            </trkpt>
+            <trkpt lat="24.992897" lon="121.3234067">
+            </trkpt>
+            <trkpt lat="24.9930161" lon="121.3233504">
+            </trkpt>
+            <trkpt lat="24.9932252" lon="121.3232646">
+            </trkpt>
+            <trkpt lat="24.9935388" lon="121.3231546">
+            </trkpt>
+            <trkpt lat="24.9937697" lon="121.3230768">
+            </trkpt>
+            <trkpt lat="24.993935" lon="121.32305">
+            </trkpt>
+            <trkpt lat="24.994042" lon="121.3230661">
+            </trkpt>
+            <trkpt lat="24.9941854" lon="121.3231197">
+            </trkpt>
+            <trkpt lat="24.9942875" lon="121.3232136">
+            </trkpt>
+            <trkpt lat="24.9943459" lon="121.3232994">
+            </trkpt>
+            <trkpt lat="24.9943848" lon="121.3233826">
+            </trkpt>
+            <trkpt lat="24.9944139" lon="121.3234926">
+            </trkpt>
+            <trkpt lat="24.9944285" lon="121.3236615">
+            </trkpt>
+            <trkpt lat="24.9944164" lon="121.3237554">
+            </trkpt>
+            <trkpt lat="24.9943872" lon="121.32386">
+            </trkpt>
+            <trkpt lat="24.9943434" lon="121.3239485">
+            </trkpt>
+            <trkpt lat="24.9942608" lon="121.3240478">
+            </trkpt>
+            <trkpt lat="24.9941854" lon="121.3241202">
+            </trkpt>
+            <trkpt lat="24.9940784" lon="121.3241926">
+            </trkpt>
+            <trkpt lat="24.9939423" lon="121.3242597">
+            </trkpt>
+            <trkpt lat="24.993811" lon="121.324324">
+            </trkpt>
+            <trkpt lat="24.9937187" lon="121.3243616">
+            </trkpt>
+        </trkseg>
+    </trk>
+</gpx>

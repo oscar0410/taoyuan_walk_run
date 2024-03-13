@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.2.2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ogr="http://osgeo.org/gdal"
+    xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+    <metadata>
+        <bounds minlat="24.812605699999999" minlon="121.087803300000004" maxlat="25.063425100000000" maxlon="121.366514199999997"/>
+    </metadata>
+    <trk>
+        <name>#16.光明河濱公園</name>
+        <extensions>
+        </extensions>
+        <trkseg>
+            <trkpt lat="25.0470162" lon="121.2874001">
+            </trkpt>
+            <trkpt lat="25.0470988" lon="121.2873572">
+            </trkpt>
+            <trkpt lat="25.0472835" lon="121.2872338">
+            </trkpt>
+            <trkpt lat="25.0473758" lon="121.2871587">
+            </trkpt>
+            <trkpt lat="25.0475168" lon="121.2871748">
+            </trkpt>
+            <trkpt lat="25.0475411" lon="121.2870782">
+            </trkpt>
+            <trkpt lat="25.047614" lon="121.2869816">
+            </trkpt>
+            <trkpt lat="25.0476577" lon="121.2868958">
+            </trkpt>
+            <trkpt lat="25.0476723" lon="121.2868314">
+            </trkpt>
+            <trkpt lat="25.0476868" lon="121.2866812">
+            </trkpt>
+            <trkpt lat="25.0477111" lon="121.2866169">
+            </trkpt>
+            <trkpt lat="25.047648" lon="121.2866276">
+            </trkpt>
+            <trkpt lat="25.0475216" lon="121.2867134">
+            </trkpt>
+            <trkpt lat="25.0470113" lon="121.2868958">
+            </trkpt>
+            <trkpt lat="25.0469044" lon="121.2869119">
+            </trkpt>
+            <trkpt lat="25.0465982" lon="121.2869495">
+            </trkpt>
+            <trkpt lat="25.0462629" lon="121.2870407">
+            </trkpt>
+            <trkpt lat="25.0461754" lon="121.2870621">
+            </trkpt>
+            <trkpt lat="25.0461657" lon="121.2871319">
+            </trkpt>
+            <trkpt lat="25.0462094" lon="121.2872016">
+            </trkpt>
+            <trkpt lat="25.0464233" lon="121.2874644">
+            </trkpt>
+            <trkpt lat="25.0464864" lon="121.2874644">
+            </trkpt>
+            <trkpt lat="25.0465496" lon="121.2874108">
+            </trkpt>
+            <trkpt lat="25.0466079" lon="121.2873786">
+            </trkpt>
+            <trkpt lat="25.0467051" lon="121.287384">
+            </trkpt>
+            <trkpt lat="25.0468752" lon="121.2874108">
+            </trkpt>
+            <trkpt lat="25.0469627" lon="121.2874054">
+            </trkpt>
+        </trkseg>
+    </trk>
+</gpx>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.2.2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ogr="http://osgeo.org/gdal"
+    xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+    <metadata>
+        <bounds minlat="24.812605699999999" minlon="121.087803300000004" maxlat="25.063425100000000" maxlon="121.366514199999997"/>
+    </metadata>
+    <trk>
+        <name>#1.桃林鐵馬道（成功陸橋段）</name>
+        <extensions>
+        </extensions>
+        <trkseg>
+            <trkpt lat="24.9960418" lon="121.3260147">
+            </trkpt>
+            <trkpt lat="24.9972281" lon="121.325843">
+            </trkpt>
+            <trkpt lat="24.9972378" lon="121.3259396">
+            </trkpt>
+            <trkpt lat="24.9937372" lon="121.3264921">
+            </trkpt>
+            <trkpt lat="24.9937226" lon="121.3263741">
+            </trkpt>
+            <trkpt lat="24.9959689" lon="121.3260308">
+            </trkpt>
+        </trkseg>
+    </trk>
+</gpx>

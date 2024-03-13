@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.2.2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ogr="http://osgeo.org/gdal"
+    xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+    <metadata>
+        <bounds minlat="24.812605699999999" minlon="121.087803300000004" maxlat="25.063425100000000" maxlon="121.366514199999997"/>
+    </metadata>
+    <trk>
+        <name>#14.八德大湳森林公園</name>
+        <extensions>
+        </extensions>
+        <trkseg>
+            <trkpt lat="24.9567653" lon="121.3013416">
+            </trkpt>
+            <trkpt lat="24.9544502" lon="121.3014488">
+            </trkpt>
+            <trkpt lat="24.9544648" lon="121.3019424">
+            </trkpt>
+            <trkpt lat="24.9544502" lon="121.3020336">
+            </trkpt>
+            <trkpt lat="24.954421" lon="121.3020711">
+            </trkpt>
+            <trkpt lat="24.9543675" lon="121.3020926">
+            </trkpt>
+            <trkpt lat="24.9535748" lon="121.3020765">
+            </trkpt>
+            <trkpt lat="24.9534386" lon="121.3020443">
+            </trkpt>
+            <trkpt lat="24.9528112" lon="121.3018726">
+            </trkpt>
+            <trkpt lat="24.9527674" lon="121.3017922">
+            </trkpt>
+            <trkpt lat="24.9527577" lon="121.3017117">
+            </trkpt>
+            <trkpt lat="24.9527479" lon="121.3014864">
+            </trkpt>
+            <trkpt lat="24.9527528" lon="121.3014113">
+            </trkpt>
+            <trkpt lat="24.9528112" lon="121.301422">
+            </trkpt>
+            <trkpt lat="24.9528063" lon="121.3015829">
+            </trkpt>
+            <trkpt lat="24.9528209" lon="121.3017546">
+            </trkpt>
+            <trkpt lat="24.9528598" lon="121.3018136">
+            </trkpt>
+            <trkpt lat="24.9535456" lon="121.3020014">
+            </trkpt>
+            <trkpt lat="24.9543335" lon="121.3020175">
+            </trkpt>
+            <trkpt lat="24.9543724" lon="121.3020014">
+            </trkpt>
+            <trkpt lat="24.9543967" lon="121.3019585">
+            </trkpt>
+            <trkpt lat="24.9543821" lon="121.3013898">
+            </trkpt>
+            <trkpt lat="24.9567701" lon="121.3012879">
+            </trkpt>
+        </trkseg>
+    </trk>
+</gpx>

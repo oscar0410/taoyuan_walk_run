@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.2.2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ogr="http://osgeo.org/gdal"
+    xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+    <metadata>
+        <bounds minlat="24.812605699999999" minlon="121.087803300000004" maxlat="25.063425100000000" maxlon="121.366514199999997"/>
+    </metadata>
+    <trk>
+        <name>#13.大溪埔頂公園</name>
+        <extensions>
+        </extensions>
+        <trkseg>
+            <trkpt lat="24.9095492" lon="121.282544">
+            </trkpt>
+            <trkpt lat="24.9090335" lon="121.2838153">
+            </trkpt>
+            <trkpt lat="24.9082502" lon="121.2834774">
+            </trkpt>
+            <trkpt lat="24.9079096" lon="121.2833111">
+            </trkpt>
+            <trkpt lat="24.9074863" lon="121.283016">
+            </trkpt>
+            <trkpt lat="24.9056666" lon="121.2815301">
+            </trkpt>
+            <trkpt lat="24.9066105" lon="121.279733">
+            </trkpt>
+            <trkpt lat="24.9098412" lon="121.281852">
+            </trkpt>
+            <trkpt lat="24.9095687" lon="121.2824957">
+            </trkpt>
+        </trkseg>
+    </trk>
+</gpx>

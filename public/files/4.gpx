@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.2.2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ogr="http://osgeo.org/gdal"
+    xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+    <metadata>
+        <bounds minlat="24.812605699999999" minlon="121.087803300000004" maxlat="25.063425100000000" maxlon="121.366514199999997"/>
+    </metadata>
+    <trk>
+        <name>#4.桃園藝文廣場</name>
+        <extensions>
+        </extensions>
+        <trkseg>
+            <trkpt lat="25.0170658" lon="121.3011124">
+            </trkpt>
+            <trkpt lat="25.0166428" lon="121.2999162">
+            </trkpt>
+            <trkpt lat="25.0184269" lon="121.2990686">
+            </trkpt>
+            <trkpt lat="25.0188935" lon="121.3002595">
+            </trkpt>
+            <trkpt lat="25.0170949" lon="121.3011714">
+            </trkpt>
+        </trkseg>
+    </trk>
+</gpx>
