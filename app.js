@@ -22,7 +22,7 @@ app.use('/', indexRouter);
 app.use('/api/userWalk', userWalkLogRouter);
 app.use('/api/route', routeRouter);
 app.use('/api/visitor', visitorRouter);
-app.use('/api/info', infoRouter);
+app.use('/info', infoRouter);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.listen(3000, function () {
     console.log('Example app listening on port 3000!');
