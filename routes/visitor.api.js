@@ -1,8 +1,9 @@
 const express = require('express');
 const router = express.Router();
 const webRequestLogService = require('../services/websiteRequestLog.service');
+const envConfig = require('../config/env.config');
 
-const websiteName = 'tycg-running';
+const websiteName = envConfig.WEBSITE_NAME;
 
 // Default root route of file
 router.get('/', async (req, res) => {
