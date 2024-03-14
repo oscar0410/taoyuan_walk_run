@@ -9,6 +9,7 @@ const indexRouter = require('./routes/index');
 const userWalkLogRouter = require('./routes/userWalkLog.api');
 const routeRouter = require('./routes/route.api');
 const visitorRouter = require('./routes/visitor.api');
+const infoRouter = require('./routes/info.api');
 const app = express();
 
 app.use(logger('dev'));
@@ -21,6 +22,7 @@ app.use('/', indexRouter);
 app.use('/api/userWalk', userWalkLogRouter);
 app.use('/api/route', routeRouter);
 app.use('/api/visitor', visitorRouter);
+app.use('/api/info', infoRouter);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.listen(3000, function () {
     console.log('Example app listening on port 3000!');
