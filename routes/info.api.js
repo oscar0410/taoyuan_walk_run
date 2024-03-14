@@ -3,9 +3,9 @@ const path = require("path");
 const router = express.Router();
 
 
-// return a pdf file in ../public/files/pdf
+// return an image file in ../public/files/images
 router.get('/', async (req, res) => {
-    const filePath = path.join(__dirname, '../public/files/pdf/', 'info.pdf');
+    const filePath = path.join(__dirname, '../public/files/images/', 'info.png');
     res.sendFile(filePath);
 });
 
