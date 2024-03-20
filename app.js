@@ -10,6 +10,7 @@ const userWalkLogRouter = require('./routes/userWalkLog.api');
 const routeRouter = require('./routes/route.api');
 const visitorRouter = require('./routes/visitor.api');
 const infoRouter = require('./routes/info.api');
+const adminRouter = require('./routes/admin');
 const app = express();
 
 app.use(logger('dev'));
@@ -18,7 +19,10 @@ app.use(express.urlencoded({extended: false}));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'public'));
 app.use('/', indexRouter);
+app.use('/admin', adminRouter);
 app.use('/api/userWalk', userWalkLogRouter);
 app.use('/api/route', routeRouter);
 app.use('/api/visitor', visitorRouter);
