@@ -1,13 +1,13 @@
 const tycgRouteModel = require('../models/tycgRoute.model');
 const fs = require('fs');
 
-const create = async (req) => {
+const create = async (req, fileName) => {
 
-    await tycgRouteModel.create(req.body['route_name']);
+   return await tycgRouteModel.create(req.body['route_name'],fileName);
 }
 
-const update = async (req) => {
-    await tycgRouteModel.update(req.body['route_id'], req.body['route_name']);
+const update = async (req, fileName) => {
+   return await tycgRouteModel.update(req.body['route_id'], req.body['route_name'], fileName);
 }
 
 const findAll = async () => {
