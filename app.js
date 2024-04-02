@@ -9,6 +9,7 @@ const indexRouter = require('./routes/index');
 const userWalkLogRouter = require('./routes/userWalkLog.api');
 const routeRouter = require('./routes/route.api');
 const visitorRouter = require('./routes/visitor.api');
+const questionRouter = require('./routes/question.api');
 const infoRouter = require('./routes/info.api');
 const adminRouter = require('./routes/admin');
 const app = express();
@@ -26,6 +27,7 @@ app.use('/admin', adminRouter);
 app.use('/api/userWalk', userWalkLogRouter);
 app.use('/api/route', routeRouter);
 app.use('/api/visitor', visitorRouter);
+app.use('/api/question', questionRouter);
 app.use('/info', infoRouter);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.listen(3000, function () {
