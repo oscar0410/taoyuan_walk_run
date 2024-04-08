@@ -12,6 +12,7 @@ const visitorRouter = require('./routes/visitor.api');
 const questionRouter = require('./routes/question.api');
 const infoRouter = require('./routes/info.api');
 const adminRouter = require('./routes/admin');
+const statisticsRouter = require('./routes/statistics.api');
 const app = express();
 
 app.use(logger('dev'));
@@ -28,6 +29,7 @@ app.use('/api/userWalk', userWalkLogRouter);
 app.use('/api/route', routeRouter);
 app.use('/api/visitor', visitorRouter);
 app.use('/api/question', questionRouter);
+app.use('/api/statistics', statisticsRouter);
 app.use('/info', infoRouter);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.listen(3000, function () {
