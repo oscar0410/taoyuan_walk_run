@@ -10,9 +10,11 @@ const getStatistics = async (mission_main, mission_detail) => {
     try {
         const missionDetailCount = await StatisticsModel.getCount(mission_detail);
         const missionMainCount = await StatisticsModel.getAccountCount(mission_main);
+        const participantsCount = await StatisticsModel.getParticipantsCount();
         return {
             missionDetailCount,
-            missionMainCount
+            missionMainCount,
+            participantsCount
         };
     } catch (error) {
         // 錯誤處理
