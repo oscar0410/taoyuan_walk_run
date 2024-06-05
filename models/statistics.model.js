@@ -21,30 +21,44 @@ class StatisticsModel {
      */
     static async getParticipantsCount() {
         const sql=`
-        select sum(count) as 總人次 from (
-        select count(*),'計步' as types from (
-        select missionno,accountserialno,finishtime::date
-        from missioninfodetail where missionno
-        in ('59240424', '59240429', '59240434', '59240439', '59240452', '59240453', '59240454', '59240402')
-        group by missionno,accountserialno,finishtime::date
-        )aa
-        
-        union
-        
-        select count(*), '打卡' as types from missioninfo where missionno='59240403'
-        union
-        select count(*),'跑步' as types from missioninfo where missionno='59240444'
-        union
-        
-        select count(*),'掃碼' as types  from (
-        select missionno,accountserialno from missioninfo
-        where missionno in ('59240449', '59240450', '59240451') and status='2'
-        group by  missionno,accountserialno
-        )aa
-        union
-        select count(*),'超慢跑' as types from missioninfo where missionno in
-        ('59240455', '59240456', '59240457')
-        ) bb
+        select sum(count) as 總人次
+from (select count(*), '計步' as types
+      from (select missionno, accountserialno, finishtime::date
+            from missioninfodetail
+            where missionno
+                      in
+                  ('59240424', '59240429', '59240434', '59240439', '59240452', '59240453', '59240454', '59240402')
+            group by missionno, accountserialno, finishtime::date) aa
+
+      union
+
+
+      select sum(stage), '打卡' as types
+      from missioninfo
+      where missionno = '59240403'
+      union
+      select sum(stage), '跑步' as types
+      from missioninfo
+      where missionno = '59240444'
+      union
+
+      select count(*), '掃碼' as types
+      from (select missionno, accountserialno
+            from missioninfo
+            where missionno in ('59240449', '59240450', '59240451')
+              and status = '2'
+            group by missionno, accountserialno) aa
+      union
+      select sum(stage), '超慢跑' as types
+      from missioninfo
+      where missionno in
+            ('59240455', '59240456', '59240457')
+            union
+      select count(*), '問卷' as types
+      from missioninfo
+      where missionno in
+            ('59240445') and score='1'
+      ) bb
         `
         console.log("sql",sql)
         const {rows} = await db.executeSql(sql, []);

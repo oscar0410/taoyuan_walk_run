@@ -1,5 +1,8 @@
 const express = require('express');
 const path = require("path");
+const fs = require('fs');
+const xml2js = require('xml2js');
+const multer = require('multer');
 const router = express.Router();
 const uploadConfig = require('../config/upload.config');
 const routeService = require('../services/tycgRoute.service');
@@ -12,7 +15,7 @@ router.get('/getAll', async (req, res) => {
             const filePath = path.join(__dirname, '../public/files/', routes[i].file_name);
             const fileContent = await routeService.getFileContent(filePath);
             routes[i].fileContent = fileContent;
-            routes[i].district = '';
+            routes[i].district = routes.town_name;
         }
         res.status(200).send({isSuccess: true, message: 'success', data: routes});
     } catch (err) {
@@ -33,6 +36,22 @@ router.get('/getRoute/:routeId', basicAuth, async (req, res) => {
         const fileContent = await routeService.getFileContent(filePath);
         res.status(200).send({success: true, message: 'success', data: route, fileContent: fileContent});
     } catch (err) {
+        res.status(500).send({isSuccess: false, message: err.message});
+    }
+});
+
+router.get('/delete/:routeId', basicAuth, async (req, res) => {
+    const routeId = parseInt(req.params['routeId']);
+    console.log(routeId)
+    try {
+        const route = await routeService.findById(routeId);
+        if (!route) {
+            res.status(404).send('route not found');
+        }
+        await routeService.deleteRoute(routeId);
+        res.status(200).send({success: true, message: 'success', data: route});
+    } catch (err) {
+        console.log(err)
         res.status(500).send({isSuccess: false, message: err.message});
     }
 });
@@ -58,6 +77,36 @@ router.post('/save', basicAuth,
                 }else{
                     await routeService.update(req, file.originalname)
                 }
+            }
+            // 读取并解析 GPX 文件
+            if (file) {
+                const filePath = file.path;
+                fs.readFile(filePath, 'utf8', (err, data) => {
+                    if (err) {
+                        console.error(err);
+                        return res.status(500).send({ isSuccess: false, message: err.message });
+                    }
+
+                    xml2js.parseString(data, async (err, result) => {
+                        if (err) {
+                            console.error(err);
+                            return res.status(500).send({isSuccess: false, message: err.message});
+                        }
+
+                        try {
+                            const firstPoint = result.gpx.trk[0].trkseg[0].trkpt[0];
+                            const latitude = firstPoint.$.lat;
+                            const longitude = firstPoint.$.lon;
+                            console.log(`First point: Latitude ${latitude}, Longitude ${longitude}`);
+                            await routeService.updateTown(longitude, latitude, file.originalname)
+                            // 你可以在这里将经纬度点存储到数据库或进行其他操作
+
+                        } catch (error) {
+                            console.error('Error extracting coordinates:', error);
+                            return res.status(500).send({isSuccess: false, message: 'Error extracting coordinates'});
+                        }
+                    });
+                });
             }
             res.status(200).send(`Route saved`);
         } catch (err) {
